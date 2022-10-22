@@ -181,6 +181,8 @@ public class App {
         //----------------------------------------------------------------------------------------//
         //Arrays
         //Arrays are multi dimensional data types. So we can store multiple data in one.
+        //Arrays have indexes that basically give numbers to each data it holds.
+        //Array indexes start at 0. So the index of the first element is 0.
         int[] newArray = new int[10]; //an array with the size 10. Array sizes cant be changed
         String[] strArray = new String[10]; //A string array with the size 10
         boolean[] boolArray = new boolean[10]; //A boolean array with the size 10
@@ -189,10 +191,13 @@ public class App {
             strArray[i] = "a"; //setting the ith element to "a"
             boolArray[i] = true; //setting the ith element to true
         } //note that .length has no ().
-        System.out.println(newArray[4]);//acceses and prints the 4th element of the array.
+        System.out.println(newArray[4]);//acceses and prints the 5th element of the array. 
+        //Notice how since index starts at 0, index 4 is the fifth item.
         //we can create array of any type. Even as objects of other classes.
         //----------------------------------------------------------------------------------------//
         //Multidimensional Arrays
+        //Arrays can store a multitude of things, and that includes other arrays.
+        //You can use 2 dimensional arrays in a lot of ways.
         int[][] newMatrix = {{1,2,3},{4,5,6},{7,8,9}}; // creates a 2 dimensional array named newMatrix.
         for(int i=0;i<newMatrix.length;i++) {
             for(int j=0;j<newMatrix[i].length;j++) {
@@ -207,6 +212,7 @@ public class App {
         }
         //----------------------------------------------------------------------------------------//
         //Arraylist 
+        //Arraylists are basically resizable arrays.
         ArrayList<Integer> newlist = new ArrayList<Integer>(); //you can make arraylists any type
         //ArrayLists are dynmaci dataypes, youy can change their sizes at any time.
         newlist.add(5); //adds the eleement 5 to tyhe arraylist
@@ -258,6 +264,8 @@ public class App {
 
     //----------------------------------------------------------------------------------------//
     //Methods
+    //Think of methods as functions from your math class. They take variables 
+    // (or sometimes dont take variables) and do stuff.
     //A void method does not return any value.
     public static void hello() { //there is no input value for this method.
         System.out.println("Hello"); // method simply prints out Hello.
