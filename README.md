@@ -4,4 +4,4 @@ While preparing for the exam, I created a simple cheat sheet that should help yo
 Be careful! This is a cheat sheet. It is not supposed to magically teach you everything. You should still study everything.
 However having all the information neccesary condensed into a single file is useful.
 
-FYI, I scored a 5.
+5 guaranteed :D
