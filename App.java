@@ -359,13 +359,13 @@ public class App {
         }
         @Override
         public String getName() {
-            return "Student "+super.getName(); //ovveridden method
+            return "Student "+super.getName(); //overridden method
         }
         //Since studentId is private, to change it we need a mutator method.
         public void setStudentId(int studentId) {
               this.studentId = studentId;
         }
-        @Override // we Ovveride the method to add the years to the grade.
+        @Override // we override the method to add the years to the grade.
         public void addAge(int a) {
               super.addAge(a); // we use the addAge method from Person
               grade += a;
